@@ -1,0 +1,45 @@
+.inner-div {
+    padding: 10px;
+    margin: -20px 10px;
+    z-index: 999;
+    border: 1px solid rgb(222, 216, 216);
+    position: relative;
+    top: -13px;
+    color: black;
+    background: white;
+    box-shadow: 1px #e1c5c5;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.outer-div {
+    height: 50%;
+}
+
+.inner-div img {
+    object-fit: cover;
+}
+
+.img-thumbnail {
+    height: 309px !important;
+    width: 100%;
+    border: 1px solid rgb(248, 245, 245) !important;
+}
+
+.btn {
+    border: none;
+    border-radius: 0;
+    align-self: center;
+    justify-self: end;
+}
+/* .btn:hover {
+    background-color: white;
+    color: teal;
+} */
+.prod-btn {
+    align-self: center;
+    margin-top: 10px;
+    display: flex;
+}

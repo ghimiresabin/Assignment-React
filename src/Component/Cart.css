@@ -1,0 +1,11 @@
+.btn-checkout {
+    background-color: rgb(9, 200, 200);
+    color: white;
+    border: 0;
+}
+.checkout {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
